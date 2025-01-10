@@ -1,0 +1,184 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8980199055247599512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/POPSONG
+  m_EditorClassIdentifier: 
+  Path: event:/POPSONG
+  Guid:
+    Data1: 1520732970
+    Data2: 1170261903
+    Data3: 1236151201
+    Data4: 1187606573
+  Banks:
+  - {fileID: 4998645098707588558}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 146304
+--- !u!114 &-5064389318116939164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/UIEFFECTS.bank
+  m_EditorClassIdentifier: 
+  Path: ../GAMEOFF/Gameoff_2023/fmod/pianotails main proyect/Build/Desktop/UIEFFECTS.bank
+  Name: UIEFFECTS
+  StudioPath: bank:/UIEFFECTS
+  lastModified: 638368853761889802
+  FileSizes:
+  - Name: Desktop
+    Value: 494
+  Exists: 1
+--- !u!114 &-1023497883241520594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../GAMEOFF/Gameoff_2023/fmod/pianotails main proyect/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638368853760900971
+  FileSizes:
+  - Name: Desktop
+    Value: 1016
+  Exists: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -1023497883241520594}
+  - {fileID: 5852658930445181344}
+  - {fileID: 4477965968314962693}
+  - {fileID: 4998645098707588558}
+  - {fileID: -5064389318116939164}
+  EditorEvents:
+  - {fileID: -8980199055247599512}
+  - {fileID: 5529649317846828796}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 4477965968314962693}
+  StringsBanks:
+  - {fileID: -1023497883241520594}
+  cacheTime: 638368853761889802
+  cacheVersion: 131609
+--- !u!114 &4477965968314962693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../GAMEOFF/Gameoff_2023/fmod/pianotails main proyect/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638368853760866825
+  FileSizes:
+  - Name: Desktop
+    Value: 1764
+  Exists: 1
+--- !u!114 &4998645098707588558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SONGS.bank
+  m_EditorClassIdentifier: 
+  Path: ../GAMEOFF/Gameoff_2023/fmod/pianotails main proyect/Build/Desktop/SONGS.bank
+  Name: SONGS
+  StudioPath: bank:/SONGS
+  lastModified: 638368853761693633
+  FileSizes:
+  - Name: Desktop
+    Value: 6489216
+  Exists: 1
+--- !u!114 &5529649317846828796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Pause
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Pause
+  Guid:
+    Data1: -1690544398
+    Data2: 1134757923
+    Data3: 4869533
+    Data4: -777662682
+  Banks:
+  - {fileID: 4477965968314962693}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &5852658930445181344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/EFFECTS.bank
+  m_EditorClassIdentifier: 
+  Path: ../GAMEOFF/Gameoff_2023/fmod/pianotails main proyect/Build/Desktop/EFFECTS.bank
+  Name: EFFECTS
+  StudioPath: bank:/EFFECTS
+  lastModified: 638368853760747015
+  FileSizes:
+  - Name: Desktop
+    Value: 494
+  Exists: 1
